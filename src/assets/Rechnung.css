@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: "Ubuntu";
+ }
+
+ .rand {
+    border: solid 1px;
+ }
+
+ .pink-rand {
+     border: solid 3px #E73058;
+     border-radius: 40px;
+ }
+
+ .abstand-rand {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 116px;
+    padding-right: 93px;
+ }
+
+ .absatz {
+    margin-bottom: 46px;
+ }
+
+ .brief {
+    color: #585857;
+    font-size: 14.16pt;
+    width: 990px;
+    height: 1400px;
+ }
+
+
+ .brief-logo-ctn {
+    width: 100%;
+    height: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+ }
+
+ .brief-logo {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: bold;
+    font-size: 72px;
+    color: #E73058;
+
+ }
+
+ .anschrift-angaben-ctn {
+    margin: auto;
+ }
+ 
+ .anschrift-feld {
+    width: 395px;
+    height: 209px;
+    margin-left: 93px;
+    padding-left: 23px;
+    float: left;
+ }
+
+ .ruecksendeangabe {
+    width: 100%;
+    height: 23px;
+ }
+
+ .zusatzzone {
+    width: 100%;
+    height: 59px;
+ }
+
+ .empfaenger {
+
+ }
+
+ .eigene-angaben {
+    height: 256px;
+    margin-left: 581px;
+    padding-top: 23px;
+    margin-right: 46px;
+    margin-bottom: 39px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+ }
+
+ .titel {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 18.88pt; 
+ }
+
+ .nachricht {
+    margin-bottom: 46px;
+    white-space: pre-line;
+    font-family: "Ubuntu";
+ }
+
+ .rechnungstabelle-ctn {
+    
+ }
+
+ .tabelle {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 23px;
+ }
+
+ .produktspalte {
+    width: 70%;
+ }
+
+ .betragsspalte {
+    width: 30%;
+ }
+
+ .betrag {
+    text-align: right;
+ }

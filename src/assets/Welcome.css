@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Ubuntu';
+}
+
+body > #root > div {
+    height: 100vh;
+    margin: 0;
+  }
+
+
+.upload-con {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.upload-menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    align-self: center; 
+    background-color: #E73058;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+
+}
+
+.upload-menu-top {
+    height: 50%;
+    border-bottom: 1px solid white;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-menu-bottom {
+    height: 50%;
+
+}
+
+.upload-menu-bottom:hover {
+    height: 50%;
+    background: linear-gradient(90deg, rgba(231,48,88,1) 0%, rgba(254,201,1,1) 100%);
+}
+
+.upload-btn {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.upload-btn:focus {
+    outline: none;
+}
+
+
+.filepond {
+    width: 400px;
+    height: 100px;
+}

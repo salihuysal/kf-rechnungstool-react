@@ -1,0 +1,41 @@
+.pack {
+    padding: 15px;
+}
+
+.con {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.con-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+
+    
+}
+
+.con-text {
+    width: 100%;
+    border-radius: 60px;
+    background: #E73058;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textarea {
+    resize: none;
+    min-height: 6em;
+}
+
+.react-datepicker-wrapper {
+    width: 200px;
+}
